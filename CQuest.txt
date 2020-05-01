@@ -1,0 +1,11 @@
+github
+JQinglong/CQuest
+
+git init
+git commit --allow-empty -m init
+git add .gitignore
+git commit -m gitignore
+git add .
+git commit -m "auto-generated files"
+git remote add origin https://github.com/JQinglong/CQuest.git
+git push -u origin master
