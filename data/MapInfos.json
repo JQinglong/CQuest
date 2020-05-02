@@ -1,4 +1,5 @@
 [
 null,
-{"id":1,"expanded":false,"name":"MAP001","order":1,"parentId":0,"scrollX":459,"scrollY":323.5}
+{"id":1,"expanded":true,"name":"初期フィールド","order":1,"parentId":0,"scrollX":612,"scrollY":431.3333333333333},
+{"id":2,"expanded":false,"name":"魔王城3F","order":2,"parentId":1,"scrollX":926.6666666666666,"scrollY":1259.3333333333333}
 ]

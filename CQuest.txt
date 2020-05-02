@@ -9,3 +9,213 @@ git add .
 git commit -m "auto-generated files"
 git remote add origin https://github.com/JQinglong/CQuest.git
 git push -u origin master
+
+
+レベルを常時表示
+
+説明を表示
+
+ランキング
+
+オンラインセーブ
+
+自動翻訳プラグイン
+https://triacontane.blogspot.com/2017/04/blog-post_16.html
+
+
+macでのapache
+https://qiita.com/shuntaro_tamura/items/bdabcb77926dc92617b1
+sudo apachectl start
+sudo apachectl stop
+
+  170  cd /Library/WebServer/Documents/
+  171  ls
+  172  mkdir games
+  173  sudo mkdir
+  174  sudo mkdir games
+  175  cd games/
+  176  pwd
+  177  cd ..
+  178  ls -l
+  179  chmod 777 games
+  180  sudo chmod 777 games
+  181  ls -l
+
+
+rpg_managers.js:1949 ReferenceError: firebase is not defined
+    at Game_Temp.initialize (SNZ_FirebaseSave.js:562)
+    at new Game_Temp (rpg_objects.js:11)
+
+index.htmlのヘッダー内
+<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+最新の
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+だと、エラー
+
+cp -RT /Library/WebServer/Documents/games/CQuest/www/img/
+
+saving.png は自分で用意
+
+Failed to load: img/characters/AddCharMonster.png
+Failed to load: img/faces/AddCharMonster.png
+
+sudo rm -rf CQuest
+
+
+cp -R CQuest/* ./CQuestNoFire/*
+
+diff -r CQuest CQuestNoFire
+
+
+Game_Actor {_hp: 450, _mp: 90, _tp: 0, _hidden: false, _paramPlus: Array(8), …}
+_actionInputIndex: 0
+_actionState: ""
+_actions: []
+_actorId: 1
+_animations: []
+_battlerName: "AddCharMonster"
+_buffTurns: (8) [0, 0, 0, 0, 0, 0, 0, 0]
+_buffs: (8) [0, 0, 0, 0, 0, 0, 0, 0]
+_characterIndex: 0
+_characterName: "AddCharMonster"
+_classId: 2
+_damagePopup: false
+_effectType: null
+_equips: (5) [Game_Item, Game_Item, Game_Item, Game_Item, Game_Item]
+_exp: {2: 0}
+_faceIndex: 0
+_faceName: "AddCharMonster"
+_hidden: false
+_hp: 450
+_lastBattleSkill: Game_Item {_dataClass: "", _itemId: 0}
+_lastCommandSymbol: ""
+_lastMenuSkill: Game_Item {_dataClass: "", _itemId: 0}
+_lastTargetIndex: 0
+_level: 1
+_motionRefresh: false
+_motionType: null
+_mp: 90
+_name: "りいだ"
+_paramPlus: (8) [0, 0, 0, 0, 0, 0, 0, 0]
+_result: Game_ActionResult {used: false, missed: false, evaded: false, physical: false, drain: false, …}
+_selected: false
+_skills: []
+_speed: 0
+_stateSteps: {}
+_stateTurns: {}
+_states: []
+_tp: 0
+_weaponImageId: 0
+agi: (...)
+atk: (...)
+cev: (...)
+cnt: (...)
+cri: (...)
+def: (...)
+eva: (...)
+exr: (...)
+fdr: (...)
+grd: (...)
+hit: (...)
+hp: (...)
+hrg: (...)
+level: (...)
+luk: (...)
+mat: (...)
+mcr: (...)
+mdf: (...)
+mdr: (...)
+mev: (...)
+mhp: (...)
+mmp: (...)
+mp: (...)
+mrf: (...)
+mrg: (...)
+pdr: (...)
+pha: (...)
+rec: (...)
+tcr: (...)
+tgr: (...)
+tp: (...)
+trg: (...)
+__proto__: Game_Battler
+
+
+
+Game_Actor {_hp: 450, _mp: 90, _tp: 0, _hidden: false, _paramPlus: Array(8), …}
+_actionInputIndex: 0
+_actionState: ""
+_actions: []
+_actorId: 1
+_animations: []
+_battlerName: "Actor1_1"
+_buffTurns: (8) [0, 0, 0, 0, 0, 0, 0, 0]
+_buffs: (8) [0, 0, 0, 0, 0, 0, 0, 0]
+_characterIndex: 0
+_characterName: "People4"
+_classId: 1
+_damagePopup: false
+_effectType: null
+_equips: (5) [Game_Item, Game_Item, Game_Item, Game_Item, Game_Item]
+_exp: {1: 0}
+_faceIndex: 0
+_faceName: "People4"
+_hidden: false
+_hp: 450
+_lastBattleSkill: Game_Item {_dataClass: "", _itemId: 0}
+_lastCommandSymbol: ""
+_lastMenuSkill: Game_Item {_dataClass: "", _itemId: 0}
+_lastTargetIndex: 0
+_level: 1
+_motionRefresh: false
+_motionType: null
+_mp: 90
+_name: "ハロルド"
+_nickname: ""
+_paramPlus: (8) [0, 0, 0, 0, 0, 0, 0, 0]
+_profile: ""
+_result: Game_ActionResult {used: false, missed: false, evaded: false, physical: false, drain: false, …}
+_selected: false
+_skills: (2) [8, 10]
+_speed: 0
+_stateSteps: {}
+_stateTurns: {}
+_states: []
+_tp: 0
+_weaponImageId: 0
+agi: (...)
+atk: (...)
+cev: (...)
+cnt: (...)
+cri: (...)
+def: (...)
+eva: (...)
+exr: (...)
+fdr: (...)
+grd: (...)
+hit: (...)
+hp: (...)
+hrg: (...)
+level: (...)
+luk: (...)
+mat: (...)
+mcr: (...)
+mdf: (...)
+mdr: (...)
+mev: (...)
+mhp: (...)
+mmp: (...)
+mp: (...)
+mrf: (...)
+mrg: (...)
+pdr: (...)
+pha: (...)
+rec: (...)
+tcr: (...)
+tgr: (...)
+tp: (...)
+trg: (...)
+__proto__: Game_Battler
+
+
+
