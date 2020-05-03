@@ -1,7 +1,7 @@
 [
 null,
 {"id":1,"list":[{"code":101,"indent":0,"parameters":["Nature",5,0,2]},{"code":401,"indent":0,"parameters":["問題に正解したらHPが増えるよ"]},{"code":356,"indent":0,"parameters":["4Quiz question 1"]},{"code":356,"indent":0,"parameters":["4Quiz answer"]},{"code":111,"indent":0,"parameters":[0,21,0]},{"code":311,"indent":1,"parameters":[0,0,0,0,50,false]},{"code":101,"indent":1,"parameters":["Nature",5,0,2]},{"code":401,"indent":1,"parameters":["HPを50増やしたよ"]},{"code":0,"indent":1,"parameters":[]},{"code":411,"indent":0,"parameters":[]},{"code":101,"indent":1,"parameters":["Nature",5,0,2]},{"code":401,"indent":1,"parameters":["今のままがんばって・・・"]},{"code":0,"indent":1,"parameters":[]},{"code":412,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"戦闘時クイズ","switchId":1,"trigger":0},
-{"id":2,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":2,"list":[{"code":351,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"メニュー画面表示","switchId":1,"trigger":0},
 {"id":3,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":4,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
 ]
